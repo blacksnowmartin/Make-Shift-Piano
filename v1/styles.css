@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.piano {
+    display: flex;
+    position: relative;
+}
+
+.key {
+    width: 40px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 0 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.key.white {
+    background-color: white;
+}
+
+.key.black {
+    background-color: black;
+    width: 30px;
+    height: 120px;
+    position: absolute;
+    margin: 0 -15px;
+    z-index: 1;
+}
+
+.key.black:nth-child(2) {
+    left: 35px;
+}
+
+.key.black:nth-child(4) {
+    left: 105px;
+}
+
+.key.black:nth-child(7) {
+    left: 245px;
+}
+
+.key.black:nth-child(9) {
+    left: 315px;
+}
+
+.key.black:nth-child(11) {
+    left: 385px;
+}
