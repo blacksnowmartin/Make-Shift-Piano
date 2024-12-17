@@ -1,1 +1,3 @@
 List of where audio files are to be stored.
+
+A actually the logic that I want to use when creating this project I want it to be using voice notes and Kenya traffic technology
