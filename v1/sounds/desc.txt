@@ -1,3 +1,3 @@
 List of where audio files are to be stored.
 
-A actually the logic that I want to use when creating this project I want it to be using voice notes and Kenya traffic technology
+I want to create shift piano using graphics which look like keyboard of piano whereby when you click using JavaScript technology will be used to apply when you click those particular pieces of which look like the keys of piano it will bring out the sounds of piano like the abcd r r doremi fa so la ta tido
